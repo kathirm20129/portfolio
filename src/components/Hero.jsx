@@ -174,7 +174,7 @@ export default function Hero() {
               transition={{ duration: 0.55 }}
               className="absolute inset-0"
             >
-              <div
+<div
   className="
     absolute
     left-1/2
@@ -182,13 +182,12 @@ export default function Hero() {
     z-10
     bottom-32
     sm:bottom-40
-    md:bottom-48
+    md:bottom-24
+    lg:bottom-48
   "
 >
   <PlanetSection setOpen={setOpen} />
 </div>
-
-
             </motion.div>
           )}
 

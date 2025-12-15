@@ -10,19 +10,21 @@ export default function PlanetSection({ setOpen }) {
         <button
           onClick={() => setOpen(true)}
           className="
-            relative
-            flex
-            items-center
-            justify-center
-            w-28 h-28
-            sm:w-36 sm:h-36
-            md:w-48 md:h-48
-            rounded-full
-            border-2
-            border-white/30
-            hover:bg-white/10
-            transition
-          "
+  relative
+  flex
+  items-center
+  justify-center
+  w-28 h-28
+  sm:w-36 sm:h-36
+  md:w-40 md:h-40
+  lg:w-48 lg:h-48
+  rounded-full
+  border-2
+  border-white/30
+  hover:bg-white/10
+  transition
+"
+
         >
           {/* CENTERED CLICK TEXT */}
           <ClickToOpen />

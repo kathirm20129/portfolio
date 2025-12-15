@@ -3,12 +3,12 @@ import React from "react";
 export default function ClickToOpen() {
   return (
     <>
-      {/*  INSIDE CIRCLE (Desktop / Tablet ONLY) */}
+      {/* INSIDE CIRCLE (TABLET + DESKTOP ONLY)*/}
       <div
         className="
-          relative
           hidden
-          sm:flex
+          md:flex
+          relative
           flex-col
           items-center
           justify-center
@@ -28,14 +28,24 @@ export default function ClickToOpen() {
         </p>
       </div>
 
-      {/* BELOW CIRCLE (Mobile ONLY) */}
-      <div className="sm:hidden mt-3 text-center pointer-events-none">
-        <p className="text-sm font-bold neon-text tracking-widest">
-          CLICK
-        </p>
-        <p className="text-xs neon-text opacity-90">
-          TO OPEN
-        </p>
+      {/* ===== MOBILE ONLY (BELOW CIRCLE) ===== */}
+      <div
+        className="
+          flex
+          md:hidden
+          mt-2
+          text-center
+          pointer-events-none
+        "
+      >
+        <div>
+          <p className="text-sm font-bold neon-text tracking-widest">
+            CLICK
+          </p>
+          <p className="text-xs neon-text opacity-90">
+            TO OPEN
+          </p>
+        </div>
       </div>
     </>
   );
