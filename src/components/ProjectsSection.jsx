@@ -1,75 +1,3 @@
-// import React from "react";
-
-// export default function ProjectsSection({ onOpenInfo }) {
-//   return (
-//     <div className="absolute top-20 w-full flex flex-col items-center z-[60] animate-fadeIn">
-
-//       {/* Title */}
-//       <h1 className="neon-text outlined text-5xl tracking-widest mb-2">
-//         MY PROJECTS
-//       </h1>
-
-//       <p className="neon-text text-xl tracking-wide mb-10">
-//         PROJECT 1 : DOC-UDI
-//       </p>
-
-//       {/* CLICK TO OPEN */}
-//       <button
-//         onClick={onOpenInfo}
-//         className="relative mt-6 flex items-center justify-center text-white px-10 py-5 cursor-pointer select-none"
-//       >
-//         {/* Frame TL */}
-//         <div className="absolute -top-6 -left-6 w-8 h-8 border-t-2 border-l-2 border-white/80"></div>
-
-//         {/* Frame BR */}
-//         <div className="absolute -bottom-6 -right-6 w-8 h-8 border-b-2 border-r-2 border-white/80"></div>
-
-//         <div className="text-center">
-//           <p className="text-lg font-bold neon-text tracking-widest">CLICK</p>
-//           <p className="text-sm neon-text opacity-90">TO OPEN</p>
-//         </div>
-//       </button>
-
-//       {/* Arrows */}
-//       <div className="absolute left-20 top-1/2 -translate-y-1/2 cursor-pointer">
-//         <img src="/assets/left.png" className="w-10 opacity-80 hover:opacity-100" />
-//       </div>
-
-//       <div className="absolute right-20 top-1/2 -translate-y-1/2 cursor-pointer">
-//         <img src="/assets/right.png" className="w-10 opacity-80 hover:opacity-100" />
-//       </div>
-//     </div>
-//   );
-// }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import React from "react";
 
 export default function ProjectsSection({ onOpenInfo }) {
@@ -92,10 +20,10 @@ export default function ProjectsSection({ onOpenInfo }) {
         className="relative mt-6 flex items-center justify-center text-white px-8 py-4 sm:px-10 sm:py-5 cursor-pointer select-none"
       >
         {/* Frame TL - Adjusted size */}
-        <div className="absolute -top-6 -left-6 w-6 h-6 sm:w-8 sm:h-8 border-t-2 border-l-2 border-white/80"></div>
+        <div className="absolute -top-2 -left-2 w-6 h-6 sm:w-8 sm:h-8 border-t-2 border-l-2 border-white/80"></div>
 
         {/* Frame BR - Adjusted size */}
-        <div className="absolute -bottom-6 -right-6 w-6 h-6 sm:w-8 sm:h-8 border-b-2 border-r-2 border-white/80"></div>
+        <div className="absolute -bottom-2 -right-2 w-6 h-6 sm:w-8 sm:h-8 border-b-2 border-r-2 border-white/80"></div>
 
         <div className="text-center">
           <p className="text-base font-bold neon-text tracking-widest sm:text-lg">CLICK</p>

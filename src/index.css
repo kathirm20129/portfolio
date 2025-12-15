@@ -1,4 +1,11 @@
 @import "tailwindcss";
+/* Mobile safety */
+@media (max-width: 640px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
 
 .neon-text {
   text-shadow:
@@ -28,8 +35,6 @@
 html, body, #root {
   height: 100%;
 }
-
-
 
 
 
